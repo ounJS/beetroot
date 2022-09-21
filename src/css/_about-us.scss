@@ -1,0 +1,139 @@
+.about-us {
+    background-color: #ebebeb;
+}
+
+.button_wrapper {
+    text-align: center;
+}
+
+.about-us-up-part {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: minmax(555px, auto);
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+
+.about-us__text {
+    font-family: $default-fonts-name;
+    color: #665f60;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.services__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(400px, auto);
+}
+
+.services1 {
+    background-color: #dbdbdb;
+}
+
+.services2 {
+    background-color: #ebebeb;
+}
+
+.services3 {
+    background-image: url("../images/our_servisec.jpg");
+    grid-row: 1/3;
+    grid-column-start: 3;
+}
+
+.services4 {
+    background-color: #ebebeb;
+}
+
+.services5 {
+    background-color: #dbdbdb;
+}
+
+.services__item {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us-left {
+    background: url("../images/about_us.jpg") center (center/cover) no-repeat;
+    min-height: 100%;
+}
+
+.about-us-left__icon {
+    text-align: center;
+    padding-top: 75px;
+}
+
+.about-us-left__text {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    font-family: $secondary-fonts;
+    font-weight: 500;
+}
+
+.about-us-right {
+    padding-top: 75px;
+    padding-left: 125px;
+    padding-right: 40px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #7d7a7c;
+    cursor: pointer;
+    color: #7d7a7c;
+    font-size: 20px;
+    font-family: $default-fonts-name;
+    font-weight: 300;
+}
+
+.about-us-btn {
+    text-decoration: none;
+        width: 200px;
+    height: 50px;
+     border: 1px solid #7d7a7c;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     align-content: center;
+}
+  
+
+.services__subtitle {
+    font-family: $default-fonts-name;
+    font-weight: 300;
+    color: #665f60;
+    font-size: 18px;
+    padding-left: 90px;
+    padding-right: 90px;
+
+}
+.services__title {
+    padding-top: 30px;
+    font-family: $default-fonts-name;
+    font-weight: 700;
+    color: #665f60;
+    font-size: 24px;
+}
+
+.services__title_side {
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 120px;
+    font-size: 36px;
+    font-family: $secondary-fonts;
+    font-weight: 500;
+}
+
+.services__subtitle_side {
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}

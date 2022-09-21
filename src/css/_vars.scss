@@ -1,0 +1,63 @@
+
+//Colors//
+
+$white: #fff;
+$black: #000;
+$cornflowerBlue:#7d5cfa;
+$malibu02: #55B7FF;
+$mineShaft03Opacity:rgba(35, 35, 35, .9);
+$outerSpace: #2b2d2d;
+$pickledBluewood:#2C4058;
+$riverBed:#4B5562;
+$heliotrope:#7E5AFF;
+$pictonBlue:#2CB3EE;
+$iron:#D5D9DE;
+
+//main-container//
+
+$container-width: 1200px;
+$default-gap: 15px;
+
+//path//
+
+$font-folder-path: '../fonts/';
+$folder-image: '../images/';
+
+//Polygraphy//
+
+$font-default-name: 'PTSans';
+$default-fonts-name: $font-default-name;
+
+
+$font-second-name: 'Proxima-Nova';
+$secondary-fonts: $font-second-name;
+
+
+$follback: Arial, Helvetica, sans-serif;
+
+$font-dafault: $font-default-name,
+$follback;
+
+$default-font-size: 18px;
+$default-font-weight: 300;
+$default-line-height: 1.667; 
+$default-letter-spacing: normal;
+$default-color-text: $black;
+
+//breack-points//
+
+$breack-points: ("xl": 1200px,
+    "lg": 992px,
+    "md": 768px,
+    "sm": 576px,
+    "mi": 350px);
+
+//variable-deckoration//
+$textColorPage: $riverBed;
+$textColorWhite: $white;
+$colorTitleWhatWe:$pickledBluewood;
+$bgTradeBefore:$malibu02;
+$bgComerceBefore:$heliotrope;
+$colorNewsData:$malibu02;
+$borderInputNoActive:$iron;
+$defaultBoxShadow: 0 0 2px 1px rgba(0, 0, 0, .35);

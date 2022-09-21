@@ -1,0 +1,125 @@
+.our-team {
+    background-color: #ebebeb;
+}
+
+.our-team__title {
+    text-align: center;
+    font-size: 36px;
+    font-family: $secondary-fonts;
+    font-weight: 500;
+    color: #665f60;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+        margin-bottom: 200px;
+}
+
+.our-team__icon {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.cards__wrapper {
+    margin-top: 200px;
+}
+
+.card {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    background-color: #fff;
+    position: relative;
+    margin: 15px;
+    margin-bottom: 100px;
+    margin-top: 125px;
+
+}
+
+.photo_wrapper {
+    position: relative;
+    width: 350px;
+    width: 100%;
+}
+
+.photo {
+    position: absolute;
+    left: calc(40% - 100px);
+    top: -130px;
+    max-width: 260px;
+    width: 100%;
+}
+
+.card__name {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #9f9acf;
+    font-family: $secondary-fonts;
+    font-weight: 700;
+    padding-top: 160px;
+}
+
+.card__position {
+    text-align: center;
+    font-size: 24px;
+    color: #665f60;
+    font-family: $default-fonts-name;
+    font-weight: 300;
+    padding-top: 35px;
+}
+
+.card__social_wrapper {
+    background-color: #9f9acf;
+}
+
+.card__social {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card__social_item {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-right: 25px;
+}
+
+.card__social_link {
+    display: flex;
+}
+
+.slider {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+
+.slick-prev  {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    left: -120px;
+    top: 50%;
+}
+
+.slick-next  {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: -120px;
+    top: 50%;
+}
+
+
+.owl-next {
+    position: absolute;
+    top: 50%;
+    left: 106%;
+}
+
+.owl-prev {
+    position: absolute;
+    top: 50%;
+    right: 105%;
+}

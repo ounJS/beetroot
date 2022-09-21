@@ -1,0 +1,113 @@
+.header {
+    background: url('../images/main_bg.jpg') center (center/cover) no-repeat;
+    height: 100vh;
+}
+
+.header__logo {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.betroot-logo {
+    fill: #f6f6f6;
+    height: 69px;
+    width: 55px;
+}
+
+.betroot-logo:hover {
+    fill: #a60a3d;
+}
+
+.betroot-logo:hover::after {
+    display: block;
+}
+
+
+.nav {
+    margin-top: 21px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+
+    &__item {
+        margin-top: 15px;
+        margin-left: 35px;
+    }
+
+    &__link {
+    color:  #fff;
+    font-size: 24px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: $secondary-fonts;
+    font-weight: 500;
+    position: relative;
+    transition: .3s ease-in;
+    }
+
+    &__link::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #a60a3d;
+        opacity: 0;
+        transition: .3s ease-in;
+    }
+
+    &__link:hover::after {
+        opacity: 1;
+    }
+
+    &__link:hover{
+        color: #a60a3d;
+    }
+
+
+}
+
+
+.header__title {
+    margin-top: 258px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 72px;
+    font-family: $secondary-fonts;
+    font-weight: bold;
+}
+
+.header__subtitle {
+    text-align: center;
+    color: #fefdfd;
+    font-size: 30px;
+    font-family: $default-fonts-name;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.hamburger {
+    position: fixed;
+    display: none;
+}
+
+
+.link-active::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #a60a3d;
+    opacity: 1;
+}
+
+.link-active {
+    color: #a60a3d;
+}

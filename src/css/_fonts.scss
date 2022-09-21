@@ -1,0 +1,10 @@
+@include fonts($font-default-name, 'ptsans', 400);
+
+@include fonts($font-default-name, 'ptsansbold', 700);
+
+@include fonts($font-default-name, 'ptsansitalic', 300);
+
+@include fonts($font-second-name, 'proxima_nova_semibold', 500);
+
+@include fonts($font-second-name, 'proxima_nova_bold', 700);
+

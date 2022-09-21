@@ -1,0 +1,35 @@
+.footer {
+    background-color: #9f9acf;
+    min-height: 185px;
+    display: flex;
+    align-content: center;
+
+    align-items: center;
+}
+
+.footer__text {
+    color: #fff;
+    font-family: $default-fonts-name;
+    font-weight: 400;
+    font-size: 17px;
+    margin-right: 606px;
+}
+
+.footer__text_bold {
+    font-family:$default-fonts-name ;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.content__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.social_footer {
+    margin-top: 0;
+}
+
